@@ -1,20 +1,19 @@
 {
-    "name": "mastermind3001/testy",
-    "description": "A PHP application for tracking expenses.",
+    "name": "mastermind_3001/define",
+    "description": "master project to php 8",
     "type": "project",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    },
     "authors": [
         {
             "name": "(mastermind3001)",
             "email": "ayderumerov.com@gmail.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Framework\\": "src/Framework",
-            "App\\": "src/App"
-
-        }
-    }
+    "require": {}
 }
